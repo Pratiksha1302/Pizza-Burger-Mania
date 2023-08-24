@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="pizza title icon.jfif" type="image/x-icon">
+
+    <title>Feedback Form</title>
+
+    <style>
+ 
+      body {
+        font-family: "Poppins", sans-serif;
+        background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+ text-align: center;
+      }
+      
+      p {
+        text-align: center;
+        color: white;
+      }
+      
+      #foodContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .card{
+                    border-radius: 16px;
+                    color: black;
+                    width: 700px;
+                    padding: 10px;
+                    border: 2px solid white;
+                    margin: 15px ;
+                    
+                   
+                    justify-content: center;
+                }
+                .card-img{
+                    border-radius: 16px;
+                    width: 100%;
+                }
+             
+      button {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+        font-weight: bold;
+      
+        transition: 0.5s;
+      }
+      
+      button:hover {
+        background-color: orangered;
+      }
+      .checked {
+  color: blueviolet;
+      }
+
+      input[type=text],input[type=date],input[type=time],input[type=number],textarea{
+            padding:10px;
+            margin:2px;
+            border-color: black;
+            border:3px solid blueviolet;
+            text:bold;
+          }
+            
+
+            button{
+            border-radius: 5cqb;
+            width: 30%;
+            color: antiquewhite;
+            padding: 20px;
+            background-color: darkred;
+             border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+           } 
+           
+           label{
+color: black;
+           }
+          </style>
+     
+    
+</head>
+<body>
+    <h2>PIZZA MANIA'S FEEDBACK SERVEY!</h2>
+    
+    <h3>Welcome to <span class="noWrap">Pizza Mania's</span> customer satisfaction survey. We are excited to hear your feedback so we can improve our service.</p></h3>
+    <div id="foodContainer">
+      <div class="card">
+        <p>Please enter the following information printed on the side of your pizza box.</p></p>
+    <!-- <img
+          src="https://source.unsplash.com/600x330/?hamburguesas-veganas"class="card-img" 
+          alt="this was a img of an pizza"
+        />-->
+        <form>
+        <label><b>Store</b></label>
+        <input type="text" placeholder="Store Name" name="username" required><br><br>
+        <label><b>Address</b></label>
+        <input type="text" placeholder="Address" name="password" required><br>
+        <label ><b>Email Address</b></label>
+        <input type="text" placeholder="Email" name="username" required><br><br>
+        
+        <label><b>Date</label>
+        <input type="date" name="Date">
+        <label>Select a time</label>
+        <input type="time" name="appt"><br>
+        <label>Order Number</label>
+        <input type="number" name="odenumber"><br>
+
+        <label>Is anything you would like to see changed or improved? Please be as specific as you would like.</label>
+        <textarea name="feedback" maxlength="1200" cols="50" rows="8" ></textarea>
+
+        <h2>Rate Us!!</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<br>
+       
+        
+        <a href="Pratiksha's(pizza_burger cafe)Project.html"><button >Submit</button></a>
+        </form>
+      </div> 
+</body>
+</html>
